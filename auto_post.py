@@ -16,7 +16,7 @@ Hãy trả về kết quả DUY NHẤT dưới định dạng JSON chuẩn (khô
 """
 
 response = client.models.generate_content(
-    model='gemini-2.5-flash',
+    model='gemini-3.5-flash',
     contents=prompt,
 )
 
